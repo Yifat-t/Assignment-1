@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&family=Italiana&display=swap');
+html {
+  box-sizing:border-box;
+  font-family: 'Della Respira', 'Italiana', serif;
+}
+*,*:before,*:after {
+  box-sizing:inherit;
+}
+body {
+  margin:0;
+	background-color: #fffffb;
+}
+.hidden{
+	position:absolute;
+	left: -10000px;
+	width: 1px;
+	height: 1px;
+}
+#main-navigation{
+	position: absolute;
+	right: 0;
+	top:0;
+}
+#main-navigation li{
+	display: inline-block;
+	padding-top: 5.5em;
+	padding-right:3em;
+	font-family: sans-serif;
+	margin-right: 3em;
+}
+#main-navigation a{
+	text-decoration: none;
+	font-weight: 100;
+	color:#260e04;
+}
+#main-navigation a:hover{
+	color: #f47e17;
+}
+#main{
+    display: inline-block;
+	position:flex;
+    width: 100%;
+    margin-top: 2em;
+	text-align: center;
+	padding-bottom: 7em;
+	/*border-style: dotted;*/
+	
+}
+#main h4{
+	padding-top: 4em;
+	padding-bottom: 3em;
+	font-family: sans-serif;
+	font-weight: lighter;
+}
+#main a{
+	text-decoration: none;
+	padding: 0.5em;
+	color:#260e04;
+}
+#main a:hover{
+	color: #f47e17;
+}
+
+#header{
+	position: relative;
+	background-color:
+	
+}
+.logo{
+	display: inline-block;
+	padding-top:2em;
+	padding-left: 2em;
+}
+h1{
+	color: #260e04;
+}
+
+#menu-links li{
+		display:inline-block;
+		font-style:normal;
+}
+#menu-links li:not(:first-child){
+		border-left: 2px solid; 
+		padding-left: 0.3em;
+}
+#menu-links {
+	text-align:center;
+	padding-top:25px;
+	font-weight:bold;
+	font-size:20px;
+}
+#menu-links a {
+	text-decoration:none;
+	color:#000;
+}
+#menu-links a:hover {
+	color:#f47e17;
+}
+	
+main {
+	margin:auto;
+	outline:2px solid #ADB5BD;
+	padding:15px;
+	width:960px;
+	padding:20px;
+	margin-top:40px;
+}
+
+main h4{
+	font-size:20px;
+}
+td{
+	font-style:italic;
+	width:940px;
+}
+
+.a	{
+	float:left;
+}
+.b{
+	float:right;
+}
+
+footer{
+	width:100%;
+}
+#banner{
+	width:100%;	
+	background-color:#260e04;		
+}
+footer li{
+	display: inline-block;
+	font-family: sans-serif;
+	float:right;
+	padding-right: 4em;
+}
+footer ul{
+	padding-bottom:60px;
+	padding-top:50px;
+}
+footer a{
+	text-decoration: none;
+	color:#fffffb;
+	
+}
+footer p{
+	font-family: sans-serif;
+	font-size: 14px;
+	width:100%;
+	display:inline-block;
+	margin:0px;
+	
+}
+.contentBox{
+	background: #260e04;
+	padding: 15px;
+	color: #FFE5C3;
+}
+
+
+.textHovered {
+    background:white;
+    color: black;
+}
+
+

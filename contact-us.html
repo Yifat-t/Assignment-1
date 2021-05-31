@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- <script type="text/javascript" src="js/jquery-3.6.0.js"></script> -->
+		<script type="text/javascript" src="js/contact.js" ></script>
+		<meta charset="utf-8">
+		<title>Contact Us Page</title>
+		<link rel="stylesheet" type="text/css" href="css/contact-style.css">
+	</head>
+	<body>
+		
+		<header id="header">
+		<h2 id="site-name" class="hidden">Boccaccio</h2>
+		<h1 class="logo">Boccaccio</h1>
+				<nav id ="main-navigation">
+					<h3 class="hidden">Main navigation</h3>
+					<ul class="menu">
+						<li><a href="menu-page.html">Back to Menu</a></li>
+					</ul>
+				</nav>
+		</header>
+		<main>
+			<h1>Contact Us</h1>
+			<form action="#" method="post" id="contactForm" name="form_contact">
+				<fieldset>
+					
+						<legend>Tell us what you think</legend>
+					<div>	
+						<label for="firstName">First Name:</label>
+						<input type="text" id="firstName" name="f_Name" />
+					</div>
+					<div>
+						<label for="lastName">Last Name:</label>
+						<input type="text" id="lastName" name="l_Name" />
+					</div>
+					<div>
+						<label for="email">Email Address:</label>
+						<input type="email" id="email" name="e-mail" />
+					</div>
+					<div>
+						<label for="phoneNumber">Phone Number:</label>
+						<input type="number" id="phoneNumber" name="p_Number" />   (In Canada only , 10 digits maximum with no space.)
+					</div>
+					<div>
+						<label for="message">What's your message about?</label>
+						<select id="message" name="what_message">
+						<option value="0">===SELECT===</option>
+						<option value="opt1">I would like to know more about the resturant.</option>
+						<option value="opt2">I have some feedback.</option>
+						<option value="opt3">I would just like to chat.</option>
+						</select>
+					</div>	
+					<div>
+						<input type="submit" value="Send Contact Details" name="submit" id="btn"/>
+					</div>
+				</fieldset>
+					
+			</form>
+			
+			<!--#### OUTPUT MESSAGE (HIDDEN UNTIL FORM VALIDATES) #### -->
+			<div id="thanks_msg">
+				<h2>Thank you <span id="thanksCustomer"></span> for contacting us!</h2>
+				<div>
+					<p>We will contact you within 48 hours via your email <span id="cust_email"></span> or call you to <span id="cust_phone"></span>.</p>
+					
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div id="banner">
+			 <nav>
+			   <h3 class="hidden">Main navigation</h3>
+				<ul>
+					<li><a href="menu-page.html">Back to Menu</a></li>
+				</ul>
+			  </nav>
+			</div>
+				<p>&copy; Copywrite Boccaccio, 2021. All rights reserved. This is a fake website for HTTP 5103</p>
+		</footer>
+	</body>
+	
+</html>
