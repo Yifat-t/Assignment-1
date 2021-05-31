@@ -102,7 +102,7 @@ main {
 	margin:auto;
 	outline:2px solid #ADB5BD;
 	padding:15px;
-	width:960px;
+	/* width:960px; */
 	padding:20px;
 	margin-top:40px;
 }
@@ -123,12 +123,15 @@ td{
 }
 
 footer{
-	width:100%;
+	
+	
+	background-color:#fffffb;
+	
 }
 #banner{
-	width:100%;	
-	background-color:#260e04;		
+	background:#260e04;
 }
+
 footer li{
 	display: inline-block;
 	font-family: sans-serif;
@@ -143,6 +146,7 @@ footer a{
 	text-decoration: none;
 	color:#fffffb;
 	
+	
 }
 footer p{
 	font-family: sans-serif;
@@ -150,6 +154,7 @@ footer p{
 	width:100%;
 	display:inline-block;
 	margin:0px;
+	
 	
 }
 .contentBox{
@@ -162,6 +167,50 @@ footer p{
 .textHovered {
     background:white;
     color: black;
+}
+@media screen and (max-width:768px) {
+	html{
+		font-size: 2vw; 
+	}
+	body{
+		font-size:2em;  
+	}
+	
+	
+	
+}
+@media screen and (max-width:320px) {
+	html{
+		 
+		font-size: 2vw; 
+	}
+	body{
+		font-size:2em; 
+	}
+	main , footer{		
+		text-align:center;
+	}
+	#menu-links li{
+		width:100%;
+		font-size:1.5em;
+		
+	}
+	#menu-links li:not(:first-child){
+		border-left: none; 
+}
+	main h4{
+		font-size:2em;
+	}
+	.logo{
+		padding-left:1em;
+	}
+	footer{
+		font-size:2em;
+	}
+	main{
+		outline:none;
+	}
+	
 }
 
 

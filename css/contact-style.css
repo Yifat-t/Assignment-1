@@ -50,14 +50,16 @@ h1{
 main{
 	margin:150px 250px 100px 250px;
 }
-
 footer{
-	width:100%;
+	
+	
+	background-color:#fffffb;
+	
 }
 #banner{
-	width:100%;	
-	background-color:#260e04;		
+	background:#260e04;
 }
+
 footer li{
 	display: inline-block;
 	font-family: sans-serif;
@@ -72,6 +74,7 @@ footer a{
 	text-decoration: none;
 	color:#fffffb;
 	
+	
 }
 footer p{
 	font-family: sans-serif;
@@ -80,6 +83,7 @@ footer p{
 	display:inline-block;
 	margin:0px;
 	
+	
 }
 fieldset div {
 	margin:20px 0 20px 0;
@@ -87,5 +91,55 @@ fieldset div {
 #thanks_msg{ 
 		display: none;
 		}
+		
+@media screen and (max-width:768px) {
+	html{
+		font-size: 2vw; 
+	}
+	body{
+		font-size:1.5em;  
+	}
+	main{
+		margin:0px;
+	}
+	
+	
+}
+@media screen and (max-width:320px) {
+	html{
+		 
+		font-size: 2vw; 
+	}
+	body{
+		font-size:2em; 
+	}
+	main , footer{		
+		text-align:center;
+	}
+	#menu-links li{
+		width:100%;
+		font-size:1.5em;
+		
+	}
+	#menu-links li:not(:first-child){
+		border-left: none; 
+}
+	main h4{
+		font-size:2em;
+	}
+	.logo{
+		padding-left:1em;
+	}
+	footer{
+		font-size:2em;
+		max-width:100%;
+	}
+	main{
+		outline:none;
+	}
+	
+}		
+		
+		
 
 
